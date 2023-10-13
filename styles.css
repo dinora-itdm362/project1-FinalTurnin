@@ -27,3 +27,40 @@ main {
     text-align: center;
 }
 
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    /* Larger screen styles go here */
+}
+
+@media (min-width: 1024px) {
+    /* Even larger screen styles go here */
+}
