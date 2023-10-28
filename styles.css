@@ -25,6 +25,16 @@ main {
 
 #signup {
     text-align: center;
+    position: relative;
+}
+
+#signup img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adjust as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 h2 {
