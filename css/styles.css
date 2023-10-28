@@ -66,3 +66,25 @@ button {
     display: block;
     margin-top: 20px;
 }
+@media screen and (max-width: 767px) {
+    input {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .box {
+        background: rgba(45, 79, 90, 0.814);
+        color: #871313;
+        padding: 20px;
+        text-align: center;
+        position: relative; 
+        width: 40%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    #signup img {
+        display: block;
+        margin-top: 20px;
+    }
+}
