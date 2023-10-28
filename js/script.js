@@ -4,7 +4,17 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
-        // You can implement your signup logic here (e.g., send data to a server).
-        alert(`Thank you, ${name}! You are now signed up with email ${email}.`);
+        alert(`Thanks, ${name}! You are now signed up with email ${email}.`);
     });
 });
+function validateEmail(input) {
+    const email = input.value;
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    const errorElement = document.getElementById('email-error');
+  
+    if (!email.match(emailPattern)) {
+      errorElement.textContent = 'Please enter a valid email address';
+    } else {
+      errorElement.textContent = '';
+    }
+  }
